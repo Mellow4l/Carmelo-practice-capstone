@@ -8,7 +8,7 @@
   flex-direction: column;
   width: fit-content;
 }
-/* Navbar */
+
 .navbar {
   background-color: #fff45c;
   overflow: hidden;
@@ -61,11 +61,11 @@ body {
   color: #12130f;
 }
 
-/* Hero Image  */
+
 
 .hero {
   position: static;
-  background-image: url("https://maisonlaw.com/wp-content/uploads/2021/11/highway-g876e76d4a_1280.jpg"); /* Replace with your hero image URL */
+  background-image: url("https://maisonlaw.com/wp-content/uploads/2021/11/highway-g876e76d4a_1280.jpg"); 
   height: 600px;
   width: 100%;
   background-position: center;
@@ -93,7 +93,7 @@ body {
   margin: 10px 0 0;
 }
 
-/* Grid */
+
 
 .info-container {
   height: 525px;
@@ -163,7 +163,7 @@ body {
   flex-direction: row;
 }
 
-/* media queries */
+
 @media screen and (max-width: 900px) {
   .info-container {
     height: auto;
@@ -189,4 +189,23 @@ body {
     width: auto;
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 1s ease;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }

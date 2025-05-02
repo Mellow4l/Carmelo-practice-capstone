@@ -10,7 +10,7 @@
 }
 /* Navbar */
 .navbar {
-  background-color: #85d2ff;
+  background-color: #fff45c;
   overflow: hidden;
   position: fixed;
   opacity: 75%;
@@ -23,7 +23,7 @@
   }
 }
 body {
-  background-color: #bfd0e0;
+  background-color: #a191e3;
 }
 
 .value {
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  background-color: #c9f9ff;
+  background-color: #a191e3;
   color: #12130f;
 }
 
@@ -103,7 +103,7 @@ body {
   width: fit-content;
   border: 2px white solid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #3eb489;
+  background-color: #a191e3;
 }
 
 .info-box {
@@ -132,7 +132,7 @@ body {
   justify-content: space-between;
   display: flex;
   grid-template-columns: 1fr 1fr;
-  background-color: #e6ddde;
+  background-color: #a191e3;
 }
 
 .maps {
@@ -155,7 +155,7 @@ body {
   justify-content: space-between;
   display: flex;
   grid-template-columns: 1fr 1fr;
-  background-color: #e6ddde;
+  background-color: #a191e3;
 }
 
 .bottom-buttons {
